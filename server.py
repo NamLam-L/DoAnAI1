@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def hello():
-    return  "Hello World" ##render_template("template.html")
+    return "SOS"
+    # return render_template("template.html")
 
 @app.route('/predict_home_price', methods=['GET','POST'])
 def predict_home_price():
